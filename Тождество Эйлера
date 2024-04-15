@@ -1,0 +1,4 @@
+Ivan27a6 has one repository available. Follow their code on GitHub.
+from math import pi, e
+res = (e ** (complex(0, 1) * pi) + 1)
+print('e ** (i * pi) + 1 =', round(res.imag, min(len(str(pi)), len(str(e)))-2))
